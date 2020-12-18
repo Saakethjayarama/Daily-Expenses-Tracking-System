@@ -1,0 +1,23 @@
+nav {
+  ul {
+    list-style-type: none;
+    background-color: #fff;
+    flex-direction: column;
+
+    li {
+      padding: 20px;
+      transition: background-color 0.2s ease-out;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    li:hover {
+      background-color: rgb(48, 165, 255);
+      color: white;
+    }
+  }
+}
+
+.m-icon {
+  margin-right: 5px;
+}

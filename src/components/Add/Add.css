@@ -1,0 +1,47 @@
+.Add {
+  padding-top: 30px;
+  display: inline;
+}
+
+.Add .content {
+  background-color: white;
+}
+
+.Add .content .heading {
+  border-bottom: 1px solid #e9ecf2;
+  padding: 10px 20px;
+  font-size: 24px;
+}
+
+.Add .content .form-content {
+  padding: 15px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  display: block;
+  font-size: larger;
+  padding: 12px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+input[type="submit"] {
+  background-color: #30a5ff;
+  padding: 5px 7px;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+}
+
+.btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+/*# sourceMappingURL=Add.css.map */

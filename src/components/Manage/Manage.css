@@ -1,0 +1,29 @@
+.Manage {
+  padding-top: 30px;
+}
+
+.action {
+  display: inline;
+  cursor: pointer;
+}
+
+.delete {
+  color: red;
+}
+
+.edit {
+  color: #969661;
+}
+
+.actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+/*# sourceMappingURL=Manage.css.map */

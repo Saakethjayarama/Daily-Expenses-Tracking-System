@@ -1,0 +1,39 @@
+.Add {
+  padding-top: 30px;
+  display: inline;
+  .content {
+    background-color: white;
+    .heading {
+      border-bottom: 1px solid rgb(233, 236, 242);
+      padding: 10px 20px;
+      font-size: 24px;
+    }
+    .form-content {
+      padding: 15px;
+    }
+  }
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  display: block;
+  font-size: larger;
+  padding: 12px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+input[type="submit"] {
+  background-color: rgb(48, 165, 255);
+  padding: 5px 7px;
+  font-size: large;
+  border: none;
+  border-radius: 3px;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,22 @@
+.Manage {
+  padding-top: 30px;
+}
+
+.action {
+  display: inline;
+  cursor: pointer;
+}
+
+.delete {
+  color: red;
+}
+
+.edit {
+  color: rgb(150, 150, 97);
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
